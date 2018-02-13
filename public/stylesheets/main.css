@@ -94,3 +94,28 @@
   color: #7C7C7D;
   border: none;
 }
+
+.socials {
+  max-height: 30px;
+  max-width: 30px;
+}
+
+footer {
+  background-color: #7C7C7D;
+  padding: 1rem;
+  color: white;
+}
+
+footer div{
+  text-align: center;
+}
+
+footer a{
+  color: white;
+}
+
+footer a:hover{
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px solid white;
+}

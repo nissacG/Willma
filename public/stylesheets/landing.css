@@ -83,3 +83,20 @@ h1 {
     height: 100%;
   }
 }
+
+#landingHeader {
+    text-align: center;
+}
+
+#landingButton {
+    position: absolute;
+    top: 50%;
+    background-color: transparent;
+    color: white;
+}
+#landingButton:hover {
+    position: absolute;
+    top: 50%;
+    color: white;
+    margin: 0;
+}

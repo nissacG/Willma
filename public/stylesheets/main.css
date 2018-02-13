@@ -84,3 +84,13 @@
   letter-spacing: -.05rem;
 }
 
+.btn-primary {
+  background-color: #7C7C7D;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: white;
+  color: #7C7C7D;
+  border: none;
+}

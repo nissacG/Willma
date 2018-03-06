@@ -8,62 +8,63 @@
         <link rel="stylesheet" href="/stylesheets/landing.css">
     </head>
     <body>
-        <nav class="navbar sticky-top navbar-expand-md navbar-light">
-            <a class="navbar-brand mr-0" href="/">
-                <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-                 width="40.000000pt" height="40.000000pt" viewBox="0 0 400.000000 400.000000"
-                 preserveAspectRatio="xMidYMid meet">
-                <metadata>
-                Created by potrace 1.15, written by Peter Selinger 2001-2017
-                </metadata>
-                <g transform="translate(0.000000,400.000000) scale(0.100000,-0.100000)"
-                fill="#ffffff" stroke="none">
-                <path d="M1785 3994 c-293 -42 -466 -94 -705 -214 -565 -284 -975 -861 -1064
-                -1499 -21 -147 -21 -430 0 -570 62 -426 243 -792 544 -1104 297 -308 645 -497
-                1075 -584 132 -26 611 -26 735 0 130 28 226 55 330 93 661 244 1141 816 1277
-                1524 26 139 26 583 -1 720 -84 432 -271 778 -582 1080 -281 273 -610 446 -999
-                526 -115 23 -157 27 -355 29 -124 2 -238 1 -255 -1z m406 -135 c636 -64 1200
-                -457 1487 -1034 134 -271 192 -520 193 -825 0 -237 -30 -414 -108 -633 -244
-                -690 -911 -1194 -1634 -1235 -411 -23 -768 66 -1116 279 -399 244 -711 673
-                -828 1136 -248 989 363 2010 1355 2263 222 57 428 72 651 49z"/>
-                <path d="M1697 3332 c-13 -14 -899 -2347 -909 -2393 -4 -14 112 -63 122 -52 4
-                4 191 497 416 1095 224 598 412 1084 416 1080 3 -4 47 -116 97 -248 l90 -241
-                -310 -823 c-170 -452 -309 -824 -307 -825 4 -3 118 -45 122 -45 2 0 27 63 56
-                140 l53 140 460 -2 460 -3 43 -115 c24 -63 48 -125 53 -137 l10 -22 61 21 c33
-                12 60 26 60 30 0 5 -27 80 -60 166 -33 87 -60 165 -60 173 0 8 -4 19 -9 25
-                -12 12 -481 1257 -481 1276 0 8 42 126 93 261 l93 246 413 -1097 c227 -603
-                414 -1098 415 -1100 2 -1 31 8 65 20 45 16 61 27 58 38 -14 49 -900 2387 -909
-                2397 -13 17 -59 17 -81 1 -9 -7 -63 -139 -121 -293 -57 -154 -107 -273 -110
-                -265 -3 8 -50 133 -104 277 -54 144 -105 269 -112 278 -17 20 -63 19 -83 -3z
-                m512 -1502 l198 -525 -400 -3 c-220 -1 -402 0 -404 2 -2 2 81 230 186 507 225
-                598 212 567 217 554 3 -5 94 -246 203 -535z"/>
-                </g>
-                </svg>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item <%= typeof page !== "undefined" && page === "landing" ? "active" : "" %>">
-                        <a class="nav-link" href="/index">Home</a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="/" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Gallery</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdown03">
-                          <a class="dropdown-item" href="/photo">Photo Gallery</a>
-                          <a class="dropdown-item" href="/video">Video Gallery</a>
-                          <a class="dropdown-item" href="/drone">Drone Gallery</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+        <!--Navbar-->
+        <!--<nav class="navbar sticky-top navbar-expand-md navbar-light">-->
+        <!--    <a class="navbar-brand mr-0" href="/">-->
+        <!--        <svg version="1.0" xmlns="http://www.w3.org/2000/svg"-->
+        <!--         width="40.000000pt" height="40.000000pt" viewBox="0 0 400.000000 400.000000"-->
+        <!--         preserveAspectRatio="xMidYMid meet">-->
+        <!--        <metadata>-->
+        <!--        Created by potrace 1.15, written by Peter Selinger 2001-2017-->
+        <!--        </metadata>-->
+        <!--        <g transform="translate(0.000000,400.000000) scale(0.100000,-0.100000)"-->
+        <!--        fill="#ffffff" stroke="none">-->
+        <!--        <path d="M1785 3994 c-293 -42 -466 -94 -705 -214 -565 -284 -975 -861 -1064-->
+        <!--        -1499 -21 -147 -21 -430 0 -570 62 -426 243 -792 544 -1104 297 -308 645 -497-->
+        <!--        1075 -584 132 -26 611 -26 735 0 130 28 226 55 330 93 661 244 1141 816 1277-->
+        <!--        1524 26 139 26 583 -1 720 -84 432 -271 778 -582 1080 -281 273 -610 446 -999-->
+        <!--        526 -115 23 -157 27 -355 29 -124 2 -238 1 -255 -1z m406 -135 c636 -64 1200-->
+        <!--        -457 1487 -1034 134 -271 192 -520 193 -825 0 -237 -30 -414 -108 -633 -244-->
+        <!--        -690 -911 -1194 -1634 -1235 -411 -23 -768 66 -1116 279 -399 244 -711 673-->
+        <!--        -828 1136 -248 989 363 2010 1355 2263 222 57 428 72 651 49z"/>-->
+        <!--        <path d="M1697 3332 c-13 -14 -899 -2347 -909 -2393 -4 -14 112 -63 122 -52 4-->
+        <!--        4 191 497 416 1095 224 598 412 1084 416 1080 3 -4 47 -116 97 -248 l90 -241-->
+        <!--        -310 -823 c-170 -452 -309 -824 -307 -825 4 -3 118 -45 122 -45 2 0 27 63 56-->
+        <!--        140 l53 140 460 -2 460 -3 43 -115 c24 -63 48 -125 53 -137 l10 -22 61 21 c33-->
+        <!--        12 60 26 60 30 0 5 -27 80 -60 166 -33 87 -60 165 -60 173 0 8 -4 19 -9 25-->
+        <!--        -12 12 -481 1257 -481 1276 0 8 42 126 93 261 l93 246 413 -1097 c227 -603-->
+        <!--        414 -1098 415 -1100 2 -1 31 8 65 20 45 16 61 27 58 38 -14 49 -900 2387 -909-->
+        <!--        2397 -13 17 -59 17 -81 1 -9 -7 -63 -139 -121 -293 -57 -154 -107 -273 -110-->
+        <!--        -265 -3 8 -50 133 -104 277 -54 144 -105 269 -112 278 -17 20 -63 19 -83 -3z-->
+        <!--        m512 -1502 l198 -525 -400 -3 c-220 -1 -402 0 -404 2 -2 2 81 230 186 507 225-->
+        <!--        598 212 567 217 554 3 -5 94 -246 203 -535z"/>-->
+        <!--        </g>-->
+        <!--        </svg>-->
+        <!--    </a>-->
+        <!--    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">-->
+        <!--        <span class="navbar-toggler-icon"></span>-->
+        <!--    </button>-->
+        <!--    <div class="collapse navbar-collapse" id="navbarCollapse">-->
+        <!--        <ul class="navbar-nav mr-auto">-->
+        <!--            <li class="nav-item <%= typeof page !== "undefined" && page === "landing" ? "active" : "" %>">-->
+        <!--                <a class="nav-link" href="/index">Home</a>-->
+        <!--            </li>-->
+        <!--        </ul>-->
+        <!--        <ul class="navbar-nav">-->
+        <!--            <li class="nav-item dropdown">-->
+        <!--                <a class="nav-link dropdown-toggle" href="/" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Gallery</a>-->
+        <!--                <div class="dropdown-menu" aria-labelledby="dropdown03">-->
+        <!--                  <a class="dropdown-item" href="/photo">Photo Gallery</a>-->
+        <!--                  <a class="dropdown-item" href="/video">Video Gallery</a>-->
+        <!--                  <a class="dropdown-item" href="/drone">Drone Gallery</a>-->
+        <!--                </div>-->
+        <!--            </li>-->
+        <!--            <li class="nav-item">-->
+        <!--                <a class="nav-link" href="/contact">Contact</a>-->
+        <!--            </li>-->
+        <!--        </ul>-->
+        <!--    </div>-->
+        <!--</nav>-->
         
         <video autoplay loop muted playsinline poster="https://scontent-lhr3-1.xx.fbcdn.net/v/t1.0-9/22007400_10155748807467436_49092155351344405_n.jpg?oh=0205f19d5bc0c73acc830cb3b37b622e&oe=5ADCFEF1" id="background">
             <source src="https://dl.dropboxusercontent.com/s/1bz03yfxv1ncg0v/Will%20Drone%20Vid.mp4?dl=0" type="video/mp4">

@@ -13,15 +13,15 @@ app.get("/index", function(req, res){
 });
 
 app.get("/photo", function(req, res){
-    res.render("photo");
+    res.render("./gallery/photo");
 });
 
 app.get("/video", function(req, res){
-    res.render("video");
+    res.render("./gallery/video");
 });
 
 app.get("/drone", function(req, res){
-    res.render("drone");
+    res.render("./gallery/drone");
 });
 
 app.get("/contact", function(req, res){

@@ -42,10 +42,12 @@
     color: #f9cc25;
 }
 
-img {
+.marketing img, #portfolio img {
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
 }
+
+
 
 /**************************/
 

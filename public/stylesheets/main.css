@@ -1,5 +1,8 @@
-.navbar-dark .navbar-nav .nav-link {
+.navbar {
+  padding: .5rem 0 0 .5rem;
+}
 
+.navbar-dark .navbar-nav .nav-link {
     padding: 0;
     margin: 10px;
 }
@@ -42,10 +45,10 @@
     color: #f9cc25;
 }
 
-.marketing img, #portfolio img {
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
-}
+/*.marketing img, #portfolio img {*/
+    /*-webkit-filter: grayscale(100%); Safari 6.0 - 9.0 */
+    /*filter: grayscale(100%);*/
+/*}*/
 
 
 
@@ -72,6 +75,10 @@
   min-width: 100%;
 }
 
+.carousel-indicators .active {
+  background-color: #f9cc25;
+}
+
 .marketing .col-lg-4 {
   margin-bottom: 1.5rem;
   text-align: center;
@@ -96,7 +103,7 @@
 }
 
 .btn-primary {
-  background-color: #7C7C7D;
+  background-color: #f9cc25;
   border: none;
 }
 
@@ -106,6 +113,8 @@
   border: none;
 }
 
+/***Footer Styling ***/
+
 .socials {
   max-height: 30px;
   max-width: 30px;
@@ -113,7 +122,7 @@
 
 footer {
   text-align: center;
-  padding: 25px 0;
+  padding: 0 0 25px 0;
   color: #343A40;
 }
 footer span.copyright {
@@ -211,6 +220,7 @@ h2.section-heading {
   transition: all ease 0.5s;
   opacity: 0;
   background: rgba(249, 204, 37, 0.6);
+  border-radius: 4px;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
   opacity: 1;
@@ -330,4 +340,8 @@ h2.section-heading {
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
   background-color: #212529;
+}
+
+.img-fluid {
+  border-radius: 4px;
 }
